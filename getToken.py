@@ -4,7 +4,7 @@ for cred in creds:
     target = cred['TargetName']
 
     if 'github' in target.lower() or 'git:' in target.lower():
-        print("=" * 50)
+        # print("=" * 50)
         print("Target:", target)
 
         blob = cred.get('CredentialBlob')
